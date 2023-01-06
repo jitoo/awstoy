@@ -21,8 +21,8 @@
     	<head><title>hello world</title></head>
     	<body>
     	<h2>
-                time : <%= new java.util.Date()%>
             	<%@ page import="java.net.InetAddress" %><br>
+                time : <%= new java.util.Date()%>
             	<%InetAddress inet= InetAddress.getLocalHost();%>
             	WAS ip : <%=inet.getHostAddress()%>
     	</h2>
